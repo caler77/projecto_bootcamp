@@ -414,6 +414,7 @@ class PideNombre():
             muestra_texto_center(self.pantalla, consolas , '"q" "e" para rotar la nave', GREEN , 20 , self.pantalla.get_width()//2 , 110)
             muestra_texto_center(self.pantalla, consolas , '"z" para aumentar la nave', GREEN , 20 , self.pantalla.get_width()//2 , 130)
             muestra_texto_center(self.pantalla, consolas , '"x" para disminuir nave', GREEN , 20 , self.pantalla.get_width()//2 , 150)
-            muestra_texto_center(self.pantalla, consolas , 'los metodos de escalado y rotacion pueden tardar un poco disculpen molestias', WHITE , 10 , self.pantalla.get_width()//2 , 170)
+            muestra_texto_center(self.pantalla, consolas , 'Mantener "SHIF" para peque impulso', GREEN , 20 , self.pantalla.get_width()//2 , 170)
+            muestra_texto_center(self.pantalla, consolas , 'los metodos de escalado y la cargade niveles pueden tardar un poco disculpen molestias', WHITE , 10 , self.pantalla.get_width()//2 , 190)
             pg.display.update()
             pg.event.clear()
