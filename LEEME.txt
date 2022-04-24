@@ -1,0 +1,25 @@
+BIENBENIDO
+
+para poder jugar a este juego debe tener python 3.10.1
+
+descarge el reposirio en la carpeta que usted desee de su ordenador 
+
+cree un entorno virtual si no quiere instalar las dependencias en su equipo
+
+        en su terminal introduzca
+        '''
+        python -m venv "nombre del entorno virtual"
+        '''
+
+        active su entorno virtual 
+
+instale las dependencias en su equipo o en el entorno segun decida
+
+        en su terminal introduzca
+        '''
+        pip install -r requirements.txt
+        '''
+
+ejecute el main.py a jugar
+
+esperamos que lo disfrute
